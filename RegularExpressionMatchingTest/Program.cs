@@ -15,7 +15,7 @@ namespace RegularExpressionMatchingTest
             string[] testWord = { "14522-asAdE", "getAE-12343", "ERdee-qw e",};
             string testword1 = "local machine";
 
-            Regex regex1 = new Regex(@"\d-\w");
+            Regex regex1 = new Regex(@"\d-\w$");
             Regex regex2 = new Regex(@"\w$/s\w");
 
             foreach (var item in testWord)
