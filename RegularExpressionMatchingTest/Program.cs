@@ -15,6 +15,8 @@ namespace RegularExpressionMatchingTest
             string[] testWord = { "14522-asAdE", "getAE-12343", "ERdee-qw e",};
             string testword1 = "local machine"; 
             string testword2 = "A12dfreQ";
+            string number = "1234.12";  //define a decimal number as a string
+
 
             //defining the vehicle number plate of Bangladesh in a string array
             string[] testWord3 =
@@ -31,6 +33,9 @@ namespace RegularExpressionMatchingTest
             //Regular Expression for matching vehicle number plateB
             Regex vehicleRegex = new Regex(@"\w{5,}(-\w{4,})?\s\w{2,}\s\d{2}-\d{4}");
 
+            //Regular expression for a decimal number with regular expression
+            Regex decimalRegex = new Regex(@"\d{3,}(\.\d{2})");
+
             //testing regular expressiong for sample words 
             foreach (var item in testWord)
             {
@@ -46,6 +51,8 @@ namespace RegularExpressionMatchingTest
                 Console.WriteLine("{0} {1} a valid match", item, vehicleRegex.IsMatch(item) ? "is" : "is not");
             }
 
+            //testing the regular expression for decimal number 
+            Console.WriteLine("{0} {1} a valid match", number, decimalRegex.IsMatch(number) ? "is" : "is not");
         }
     }
 }
