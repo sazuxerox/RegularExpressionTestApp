@@ -1,0 +1,6 @@
+F:\My Works\Console Test\RegularExpressionMatchingTest\RegularExpressionMatchingTest\bin\Debug\RegularExpressionMatchingTest.exe.config
+F:\My Works\Console Test\RegularExpressionMatchingTest\RegularExpressionMatchingTest\bin\Debug\RegularExpressionMatchingTest.exe
+F:\My Works\Console Test\RegularExpressionMatchingTest\RegularExpressionMatchingTest\bin\Debug\RegularExpressionMatchingTest.pdb
+F:\My Works\Console Test\RegularExpressionMatchingTest\RegularExpressionMatchingTest\obj\Debug\RegularExpressionMatchingTest.csprojResolveAssemblyReference.cache
+F:\My Works\Console Test\RegularExpressionMatchingTest\RegularExpressionMatchingTest\obj\Debug\RegularExpressionMatchingTest.exe
+F:\My Works\Console Test\RegularExpressionMatchingTest\RegularExpressionMatchingTest\obj\Debug\RegularExpressionMatchingTest.pdb
