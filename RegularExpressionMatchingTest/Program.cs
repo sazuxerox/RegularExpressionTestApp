@@ -13,13 +13,17 @@ namespace RegularExpressionMatchingTest
         {
             //defining some word for test 
             string[] testWord = { "14522-asAdE", "getAE-12343", "ERdee-qw e",};
+            string testword1 = "local machine";
 
-            Regex regex = new Regex(@"\d-\w");
+            Regex regex1 = new Regex(@"\d-\w");
+            Regex regex2 = new Regex(@"\w$/s\w");
 
             foreach (var item in testWord)
             {
-                Console.WriteLine("{0} {1} a valid match", item, regex.IsMatch(item)? "is" : "is not");
+                Console.WriteLine("{0} {1} a valid match", item, regex1.IsMatch(item)? "is" : "is not");
             }
+
+            Console.WriteLine("{0} {1} a valid match", testword1, regex2.IsMatch(testword1) ? "is" : "is not");
         }
     }
 }
